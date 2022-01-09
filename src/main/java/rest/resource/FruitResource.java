@@ -25,11 +25,11 @@ public class FruitResource {
 
 	public FruitResource() {
 		Fruit f = new Fruit();
-		f.setId(1);
+		f.setId(0);
 		f.setName("pomme");
 		fruits.add(f);
 		f = new Fruit();
-		f.setId(2);
+		f.setId(1);
 		f.setName("clementine");
 		fruits.add(f);
 	}
